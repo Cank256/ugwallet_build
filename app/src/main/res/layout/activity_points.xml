@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PointsActivity">
+    <LinearLayout
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:background="@color/background"
+        android:id="@+id/bal_layout"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/balance_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.18"
+            android:background="@drawable/green_btn_design"
+            android:text="Bal: Ugx. 0"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/withraw_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.18"
+            android:background="@drawable/green_btn_design"
+            android:text="@string/withdraw"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_below="@+id/bal_layout"
+        android:padding="@dimen/textViewPadding"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:id="@+id/points"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recent Transactions"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="5dp"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:background="@color/background"
+        android:id="@+id/refresh_layout"
+        android:layout_below="@+id/points"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.appworld.ugwallet.widgets.RecyclerViewEmptySupport
+            android:padding="@dimen/activity_vertical_margin"
+            android:background="@color/background"
+            android:id="@+id/recyclerView"
+            android:layout_margin="@dimen/activity_vertical_margin"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.appworld.ugwallet.widgets.RecyclerViewEmptySupport>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <TextView
+        android:layout_below="@+id/refresh_layout"
+        android:id="@+id/empty_list"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Transactions"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/background"
+    android:orientation="horizontal" >
+
+    <!-- Transaction Title-->
+    <TextView
+        android:id="@+id/token"
+        android:text="@string/test_token"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <!-- Total Units -->
+    <TextView
+        android:id="@+id/amount"
+        android:text="@string/test_units"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/token"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:layout_marginTop="1dip"/>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/charge_rate"
+        android:text="@string/test_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amount"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:layout_marginTop="1dip"/>
+
+    <!-- Account Details -->
+    <TextView
+        android:id="@+id/acct_details"
+        android:text="@string/test_acct"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/charge_rate"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:layout_marginTop="1dip"/>
+
+    <!-- Transaction Date Time -->
+    <TextView
+        android:id="@+id/transaction_date"
+        android:text="@string/test_acct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/acct_details"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:layout_marginTop="1dip"
+        android:layout_marginRight="5dip"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

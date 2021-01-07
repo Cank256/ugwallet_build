@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionButtonStyle">@style/myActionButtonStyle</item>
+        <item name="android:actionBarItemBackground">@drawable/green_btn_design</item>
+        <item name="android:actionBarStyle">@style/myActionBar</item>
+    </style>
+
+<style name="myActionBar">
+<item name="android:titleTextStyle">@style/myTitleTextStyle</item>
+</style>
+
+    <!-- Theme for the splash screen. -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="myActionButtonStyle" parent="Widget.AppCompat.ActionButton">
+        <!--<item name="android:minWidth">24dp</item>
+         <item name="android:maxWidth">29dp</item>
+         <item name="android:width">29dp</item>-->
+        <item name="android:minHeight">29dp</item>
+        <item name="android:minWidth">29dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">15dp</item>
+
+    </style>
+
+    <style name="myTitleTextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">8sp</item>
+    </style>
+
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">8sp</item>
+    </style>
+</resources>

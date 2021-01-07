@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Ug Wallet</string>
+    <!--Splash Screen strings-->
+    <string name="buy_yaka_token">Buy Yaka Token</string>
+    <string name="view_history">View Purchase History</string>
+    <string name="contact_us">T&amp;Cs/Contact Us</string>
+
+    <string name="register">Register to Earn Points From Other Users</string>
+    <string name="signin_btn">Sign in (View/Withdraw Points)</string>
+    <string name="enter_pin">Enter your PIN/Password</string>
+
+    <string name="wait_message">Please wait for the %1$s popup to appear. Enter the PIN to approve the payment for UGMART with amount UGX.</string>
+    <string name="successful_top_up">Account Number %1$s was successfully topped up.</string>
+    <string name="details_error">Details attached to meter Number %1$s were not found. Please make sure you typed the meter number correctly</string>
+    <string name="transaction_details">You have purchased <strong>%1$s</strong> units and your token is <strong>%2$s</strong></string>
+
+    <string name="failed_transaction">The transaction could not be processed. Please try again later. If the error persists, please click OK to contact our customer care</string>
+    <string name="incomplete_transaction">The transaction could not be completed. Please click OK to go to your recent transactions and retry this transaction</string>
+    <string name="incomplete_transaction_retry">Sorry! The transaction could not be completed. Please click OK to retry</string>
+    <string name="rate_app">Rate the app</string>
+    <string name="call_permission_denied">Phone Call permission has been denied</string>
+
+    <string name="update_available">There is a new Ug Power update available. Please click OK to download the update. Thank you for using the service</string>
+
+    <string name="contact_message">Please give us a call on any of the numbers below to make inquiries or request assistance</string>
+    <string name="email_heading">Write to us. In your email, kindly be as detailed as
+        you possibly can. This information will help us to find the source of the issue. Thank you.</string>
+    <string name="mtn_contact">+256 776 220110</string>
+    <string name="airtel_contact">+256 752 200600</string>
+    <string name="email_subject">Subject of the Email:</string>
+    <string name="email_message">Message:</string>
+    <string name="send_email">Send Email</string>
+    <string name="fdb_feedback_title">Feedback Description</string>
+    <string name="fdb_bug_type">Bug or App Crash</string>
+    <string name="fdb_improvement_type">Improvement</string>
+    <string name="fdb_suggestion_type">Suggestion</string>
+    <string name="fdb_inquiry_type">Inquiry or Complaint</string>
+    <string name="fdb_support_email">customercare@ugmart.ug</string>
+    <string name="fdb_choose_email_provider">Choose an Email Provider:</string>
+
+    <string name="enter_umeme_acct">Enter Yaka Meter Number</string>
+    <string name="enter_phone_no">Phone Number (For Transaction/Token Receipt)</string>
+    <string name="enter_receipt_phone_no">Phone Number For Token Receipt (Optional)</string>
+    <string name="enter_contact_no">Enter Contact Number</string>
+    <string name="enter_amount">Enter Amount (Minimum UGX. 2,000)</string>
+    <string name="select_provider">Select Service Provider</string>
+    <string name="select_withdraw_type">Commission or Wallet</string>
+    <string name="choose_package">Select Preferred Package</string>
+    <string name="enter_email">Email Address (Optional)</string>
+    <string name="make_payment">Confirm Payment</string>
+    <string name="visa_payment">VISA/MasterCard Payment</string>
+
+    <string name="pick_saved_no">Pick Saved Number</string>
+    <string name="pick_saved_no_dialog">Pick Saved Meter Number</string>
+    <string name="pick_saved_phone_dialog">Pick Saved Phone Number</string>
+    <string name="phone_book">Get From Contacts</string>
+    <string name="saved_number">Saved Number</string>
+    <string name="save_no">Save</string>
+    <string name="save_number_as">Enter Contact Name</string>
+    <string name="delete">Delete</string>
+    <string name="contact_list">Saved Contact List</string>
+    <string name="recent_transactions">Retry Failed Transactions</string>
+    <string name="retry_help">This section allows you to check the payment status OR retrieve the Yaka Token. Make sure you have a stable internet connection and from the list here, click on the item with the details of the transaction you wish to check.</string>
+    <string name="purchase_history">Purchase History</string>
+    <string name="transaction_help">Click on a transaction to retry or check for the status</string>
+    <string name="history_help">Click on an item to reveal the purchase details</string>
+    <string name="empty_history">No Token Purchases found</string>
+    <string name="empty_list">No transactions found</string>
+    <string name="empty_contact_list">No Saved Contacts found</string>
+    <string name="action_settings">View Contact List</string>
+    <string name="app_share">Share the App</string>
+    <string name="token_share">Share the Token</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_contact_us">Contact Us</string>
+    <string name="recommendation">This app will help you to easily top up your Airtime, Internet Data, Yaka, Water and PayTV Account. Download it here</string>
+    <string name="confirm_delete">Confirm Delete</string>
+    <string name="confirm_delete_msg">Are you sure you want to delete this contact?</string>
+    <string name="payment_failed">Payment Failed</string>
+    <string name="payment_in_progress">Payment In Progress</string>
+    <string name="purchase_failed">Purchase Failed</string>
+    <string name="purchase_in_progress">Purchase In Progress</string>
+    <string name="purchase_successful">Purchase Successful</string>
+
+    <string name="service_unavailable">The service is temporarily unavailable. Please try again later</string>
+    <string name="no_internet">Bad Internet Connection!</string>
+    <string name="generic_server_down">Connection Timeout. Please Try again later!</string>
+    <string name="unstable_internet">Process Failed. Please check your internet connection!</string>
+    <string name="generic_error">Process Failed. Please Try again later!</string>
+    <string name="required_field">This field is required</string>
+    <string name="missing_number">Enter the meter number to be saved</string>
+    <string name="missing_phone">Enter the phone number to be saved</string>
+    <string name="invalid_email">Enter valid email</string>
+    <string name="invalid_phone">Enter valid phone number e.g. 752200600</string>
+    <string name="invalid_code">Enter valid code</string>
+    <string name="lower_amount">Amount is lower than allowed minimum</string>
+    <string name="please_start_over">App Refreshed. Please start over</string>
+
+    <string name="test_acct">04244124725 - KAMUNVI CHARLES (01)</string>
+    <string name="test_token">Token: 0636 0350 3985 3884 4865</string>
+    <string name="test_desc">4.9 KWh at UGX 696.90 per KWh</string>
+    <string name="test_units">UGX. 4,000 Units: 4.9</string>
+    <string name="balance">Bal: Ugx %.2f</string>
+    <string name="withdraw">Withdraw Points</string>
+    <string name="terms_and_conditions">
+        <b>1.</b>  Minimum Withdraw Amount is UGX. 1500\n
+        <b>2.</b>  Withdraw Charge is UGX. 500\n
+        <b>3.</b>  Withdraw charges are deducted from the amount withdrawn\n
+        <b>4.</b>  Points are only earned by active users\n
+        <b>5.</b>  Active users are those who have done a purchase in the last 30 days\n
+        <b>6.</b>  Withdrawn funds are sent to the number used at registration\n
+        <b>7.</b>  Points are earned by using the registered number for purchases\n
+        <b>8.</b>  Government and Telecom levies apply
+    </string>
+    <string name="create_password">Create PIN/Password</string>
+    <string name="confirm_password">Confirm PIN/Password</string>
+</resources>

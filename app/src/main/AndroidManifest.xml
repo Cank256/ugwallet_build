@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    package="com.appworld.ugwallet">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:resizeable="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name="com.appworld.ugwallet.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        app:popupTheme="@style/AppTheme">
+        <activity
+            android:name="com.appworld.ugwallet.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.appworld.ugwallet.MainActivity"
+            android:parentActivityName="com.appworld.ugwallet.SplashActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.appworld.ugwallet.SplashActivity" />
+        </activity>
+        <activity
+            android:name="com.appworld.ugwallet.ContactListActivity"
+            android:parentActivityName="com.appworld.ugwallet.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.appworld.ugwallet.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.appworld.ugwallet.TransactionsActivity"
+            android:parentActivityName="com.appworld.ugwallet.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.appworld.ugwallet.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.appworld.ugwallet.HistoryActivity"
+            android:parentActivityName="com.appworld.ugwallet.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.appworld.ugwallet.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.appworld.ugwallet.VisaPaymentActivity"
+            android:parentActivityName="com.appworld.ugwallet.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.appworld.ugwallet.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.appworld.ugwallet.ContactUsActivity"
+            android:parentActivityName="com.appworld.ugwallet.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.appworld.ugwallet.MainActivity" />
+        </activity>
+
+        <!-- Firebase Notifications -->
+        <service android:name="com.appworld.ugwallet.service.CustomMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.appworld.ugwallet.service.CustomInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+        <activity
+            android:name="com.appworld.ugwallet.RegistrationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appworld.ugwallet.OTPActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appworld.ugwallet.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.appworld.ugwallet.PointsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appworld.ugwallet.TermsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appworld.ugwallet.PasswordResetActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.appworld.ugwallet.AgentHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.appworld.ugwallet.AgentHistoryActivty"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

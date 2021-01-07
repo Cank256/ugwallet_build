@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "460552434591",
+    "firebase_url": "https://ug-wallet-73896.firebaseio.com",
+    "project_id": "ug-wallet-73896",
+    "storage_bucket": "ug-wallet-73896.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460552434591:android:f111b51bf3c6af89",
+        "android_client_info": {
+          "package_name": "com.appworld.ugwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460552434591-r6tl2ittbm3hhjl832rpsvvq0al9tqik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appworld.ugwallet",
+            "certificate_hash": "3e5c0e9fa532d5cafd53493ab53e12b49cb134f8"
+          }
+        },
+        {
+          "client_id": "460552434591-9f1qcifs3iuee04jkfjvohigkqk2qvnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb7GpZL-XiywDAJWv8Lp1_v3w8jSkb6BM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460552434591-9f1qcifs3iuee04jkfjvohigkqk2qvnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

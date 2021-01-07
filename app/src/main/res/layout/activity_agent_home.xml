@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.appworld.ugwallet.AgentHomeActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="@color/background"
+                android:id="@+id/bal_layout"
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:textAllCaps="false"
+                    android:id="@+id/balance_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1.18"
+                    android:background="@drawable/green_btn_design"
+                    android:text="Wallet Bal\n Ugx. 0"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:textAllCaps="false"
+                    android:id="@+id/commission_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1.18"
+                    android:background="@drawable/green_btn_design"
+                    android:text="Commission Earned\n Ugx. 0"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_below="@+id/bal_layout"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:id="@+id/ll2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|center_horizontal"
+
+                android:orientation="vertical"
+                android:gravity="bottom|center_horizontal">
+                <Button
+                    android:id="@+id/withraw_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/blue_btn_design"
+                    android:text="Withdraw"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textColor="@color/white" />
+
+
+                <Button
+                    android:textAllCaps="false"
+                    android:id="@+id/topupWalletBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Top Up Wallet"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@drawable/blue_btn_design" />
+                <LinearLayout
+                    android:background="@color/background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:textAllCaps="false"
+                        android:id="@+id/buyAirtimeBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1.18"
+                        android:background="@drawable/blue_btn_design"
+                        android:text="Airtime Topup"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:layout_marginLeft="8dp"
+                        android:textAllCaps="false"
+                        android:id="@+id/buyDataBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1.18"
+                        android:background="@drawable/blue_btn_design"
+                        android:text="Data Topup"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:background="@color/background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:textAllCaps="false"
+                        android:id="@+id/buyYakaBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1.18"
+                        android:background="@drawable/blue_btn_design"
+                        android:text="Yaka Topup"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:layout_marginLeft="8dp"
+                        android:textAllCaps="false"
+                        android:id="@+id/payWaterBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1.18"
+                        android:background="@drawable/blue_btn_design"
+                        android:text="NWSC Topup"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@color/background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:textAllCaps="false"
+                        android:id="@+id/payTVBtn"
+                        android:text="PayTV Topup"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1.18"
+                        android:background="@drawable/blue_btn_design"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:layout_marginLeft="8dp"
+                        android:textAllCaps="false"
+                        android:id="@+id/sendMoneyBtn"
+                        android:text="Send Money"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1.18"
+                        android:background="@drawable/blue_btn_design"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <Button
+                    android:textAllCaps="false"
+                    android:id="@+id/viewHistoryButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/blue_btn_design"
+                    android:text="View Transaction History"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:textAllCaps="false"
+                    android:id="@+id/contactButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/blue_btn_design"
+                    android:text="@string/contact_us"
+                    android:textStyle="bold"
+                    android:textColor="@color/white" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/share_app_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1.18"
+                        android:background="@drawable/green_btn_design"
+                        android:text="@string/app_share"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/rate_app_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1.18"
+                        android:background="@drawable/green_btn_design"
+                        android:text="@string/rate_app"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

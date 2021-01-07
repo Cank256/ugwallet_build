@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#005580</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#AEBE00</color>
+    <color name="umeme_official">#AEBE00</color>
+    <color name="umeme_blue">#005580</color>
+    <color name="background">#333333</color>
+    <color name="splash_background">#272b30</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000</color>
+</resources>

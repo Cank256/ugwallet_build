@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/background"
+    android:orientation="horizontal" >
+
+    <!-- Transaction Title-->
+    <TextView
+        android:id="@+id/transaction_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <!-- Amount and Charges -->
+    <TextView
+        android:id="@+id/transaction_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/transaction_title"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:layout_marginTop="1dip"/>
+
+    <!-- Transaction Date Time -->
+    <TextView
+        android:id="@+id/date_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/transaction_description"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:layout_marginTop="1dip"
+        android:layout_marginRight="5dip"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
